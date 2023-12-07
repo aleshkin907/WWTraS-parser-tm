@@ -6,7 +6,7 @@ class EnvSettings(BaseSettings):
     DATABASE_HOSTNAME: str
     DATABASE_NAME: str
     DATABASE_PASSWORD: str
-    DATABASE_PORT: int
+    DATABASE_PORT: str
     DATABASE_USERNAME: str
 
     class Config:
