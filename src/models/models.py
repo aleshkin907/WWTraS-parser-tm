@@ -9,4 +9,8 @@ class Item(Base):
     __tablename__ = "items"
 
     id = Column(Integer, primary_key=True)
-    name = Column(String)
+    market_hash_name = Column(String)
+    max_price = Column(int)
+    min_price = Column(int)
+    average_price = Column(int)
+    history = Column(list)

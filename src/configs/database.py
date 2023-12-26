@@ -21,9 +21,3 @@ def get_db_connection():
         yield db
     finally:
         db.close()
-
-
-
-
-
-
